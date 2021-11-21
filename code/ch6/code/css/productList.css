@@ -1,0 +1,172 @@
+.newbook {
+    height: 496px;
+    margin-top: 34px;
+}
+
+
+/* 左侧盒子*/
+
+.newbook .left-box {
+    width: 906px;
+    height: 496px;
+}
+
+
+/*顶部*/
+
+.newbook .left-box .top {
+    width: 906px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: #fff; */
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/*标题*/
+
+.newbook .left-box .top .title {
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+    font-family: cursive;
+}
+
+
+/*右侧标题导航*/
+
+.newbook .left-box .top>ul>li {
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+/*右侧激活类*/
+
+.newbook .left-box .top>ul>li.active {
+    background-color: #ff6700;
+    width: 40px;
+    color: #fff;
+}
+
+
+/*下部分内容*/
+
+.newbook .left-box .content {
+    height: 501px;
+    width: 906px;
+    /* background-color: #ccc; */
+}
+
+
+/*右侧图书列表*/
+
+.newbook .left-box .content .newbook-list {
+    height: 504px;
+    width: 906px;
+    /* background-color: #ccc; */
+}
+
+.newbook .left-box .content .newbook-list>ul>li {
+    float: left;
+    height: 223px;
+    width: 179px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.newbook .left-box .content .newbook-list>ul>li>img {
+    margin: 10px auto;
+}
+
+.newbook .left-box .content .newbook-list>ul>li>p:nth-child(2) {
+    color: #7a7a7a;
+    text-align-last: left;
+    font-size: 13px;
+    text-indent: 10px;
+    margin-bottom: 8px;
+}
+
+.newbook .left-box .content .newbook-list>ul>li>p:nth-child(3) {
+    color: #ccc;
+    text-align-last: left;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+.newbook .left-box .content .newbook-list>ul>li>p:nth-child(4) {
+    color: red;
+    text-align-last: left;
+    font-size: 18px;
+    text-indent: 10px;
+    margin-bottom: 8px;
+}
+
+.newbook .left-box .content .newbook-list>ul>li>p:nth-child(4)>span {
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.newbook .right-box {
+    width: 286px;
+    height: 501px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变为怪异盒子 */
+    box-sizing: border-box;
+}
+
+.newbook .right-box .title {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #333;
+    font-family: serif;
+}
+
+.newbook .right-box ul li {
+    line-height: 48px;
+    font-size: 18px;
+    text-indent: 5px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #333;
+}
+
+.newbook .right-box ul li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.newbook .right-box ul li .desc {
+    height: 150px;
+    line-height: 20px;
+    font-size: 14px;
+    display: none;
+    color: #333;
+}
+
+.newbook .right-box ul li .desc img {
+    margin-right: 10px;
+}
+
+.newbook .right-box ul li:first-child p:first-child {
+    display: none;
+}
+
+.newbook .right-box ul li:first-child .active {
+    display: block;
+}
+
+.productList {
+    height: 500px;
+    margin-top: 50px;
+    background-color: red;
+}
