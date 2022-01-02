@@ -1,0 +1,151 @@
+.shopcart {
+    height: 630px;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shopcart h3 {
+    font-size: 24px;
+    color: #ff6700;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+.shopcart h3 i {
+    font-style: normal;
+}
+
+.shopcart table {
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+
+.shopcart table thead tr th {
+    height: 60px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    color: #A4A4A4;
+}
+
+.shopcart table thead input {
+    margin-right: 10px;
+}
+
+.shopcart table tbody:before {
+    line-height: 1em;
+    content: "-";
+    color: white;
+    display: block;
+}
+
+.shopcart table tbody tr td {
+    border-bottom: 2px solid #ccc;
+}
+
+
+/* .shopcart table tbody tr td{
+
+} */
+
+.shopcart table tbody tr:first-child td {
+    border-top: 5px solid #ccc;
+}
+
+
+/* .shopcart table tbody div {
+    width: 100px;
+} */
+
+.shopcart table tbody span,
+input {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+}
+
+.shopcart table tbody span {
+    width: 15px;
+    padding: 0 5px;
+    color: #3d3d3d;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #d3d3d3;
+}
+
+.shopcart table tbody span:first-child {
+    border-right: 0px;
+}
+
+.shopcart table tbody span:last-child {
+    border-left: 0px;
+}
+
+.shopcart table tbody input {
+    width: 50px;
+    border: 1px solid #d3d3d3;
+    outline: none;
+}
+
+
+/* .shopcart table td,
+.shopcart table th {
+    /* border: 1px solid black; */
+
+
+/* } */
+
+.shopcart .total {
+    height: 60px;
+    border: 2px solid #d3d3d3;
+    margin-top: 20px;
+    line-height: 60px;
+    /* font-size: 20px; */
+}
+
+.shopcart .total div:first-child {
+    font-size: 15px;
+    color: #848484;
+    margin-left: 40px;
+}
+
+.shopcart .total div:first-child input {
+    margin-right: 10px;
+}
+
+.shopcart .total div:first-child span {
+    margin-left: 30px;
+}
+
+.shopcart .total div:first-child span:nth-child(2) {
+    cursor: pointer;
+}
+
+.shopcart .total div:last-child {
+    font-size: 15px;
+    color: #848484;
+}
+
+.shopcart .total div:last-child span {
+    margin-right: 30px;
+}
+
+.shopcart .total div:last-child span:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shopcart .total div:last-child button {
+    background-color: #ff6700;
+    width: 120px;
+    height: 60px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    cursor: pointer;
+}
